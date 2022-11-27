@@ -2,6 +2,7 @@ package com.example.courseworkwithlist.service;
 
 import com.example.courseworkwithlist.Employee;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface EmployeeService {
@@ -10,6 +11,6 @@ public interface EmployeeService {
     Employee removeEmployee(String lastName, String firstName);
 
     Employee findEmployee(String lastName, String firstName);
-    List<Employee> all();
+    Collection<Employee> all();
 
 }
